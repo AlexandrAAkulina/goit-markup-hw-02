@@ -1,0 +1,65 @@
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-weight: bold;
+}
+header {
+    background-color: #E7E9FC;
+}
+.main-nav .main-site-link {
+text-transform: uppercase;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 3%;
+color: #2E2F42;
+text-decoration: none;
+}
+.main-site-link .main-site-link-part {
+    color: #4D5AE5;
+}
+.site-nav .site-link {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 2%;
+color: #2E2F42;
+text-decoration: none;
+}
+.site-nav .site-link:active {
+color: #404BBF;
+}
+.address-nav .address-nav-link {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: normal;
+line-height: 1.5;
+letter-spacing: 2%;
+color: #434455;
+}
+.address-nav .address-nav-link:active {
+color: #404BBF;
+}
+.dark-background {
+    background-color: #2E2F42;
+}
+.header-1 {
+font-family: 'Roboto', sans-serif;
+font-size: 56px;
+font-weight: bold;
+line-height: 60px;
+letter-spacing: 2%;
+color: #FFFFFF;
+}
+.header-1-button {
+    color:#FFFFFF;
+    background-color: #4D5AE5;
+}
+.header-2 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
