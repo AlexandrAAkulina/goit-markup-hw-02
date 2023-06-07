@@ -1,90 +1,108 @@
+:root {
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --navy-blue-color: #2E2F42;
+    --text-color: #434455;
+    --light-color: #F4F4FD;
+    --white-background-color: #FFFFFF;
+    --font-family-text: 'Roboto', sans-serif;
+    --second-font-family-text: 'Raleway', sans-serif;
+}
 body {
-font-family: 'Roboto', sans-serif;
+font-family: var(--font-family-text);
 font-size: 24px;
 font-weight: bold;
+color: var(--text-color);
+background-color: var(--white-background-color);
 }
 header {
     background-color: #E7E9FC;
 }
-.main-nav .main-site-link {
+.main-site-link {
 text-transform: uppercase;
-font-family: 'Raleway', sans-serif;
+font-family: var(--second-font-family-text);
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
-letter-spacing: 3%;
-color: #2E2F42;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: var(--navy-blue-color);
 text-decoration: none;
 }
 .main-site-link .main-site-link-part {
-    color: #4D5AE5;
+    color: var(--navy-blue-color);
 }
-.site-nav .site-link {
-font-family: 'Roboto', sans-serif;
+.list {
+    list-style: none;
+}
+.list .site-link {
+font-family: var(--font-family-text);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 2%;
-color: #2E2F42;
+letter-spacing: 0.02em;
+color: var(--navy-blue-color);
 text-decoration: none;
+.site-link .link {
+    text-decoration: none;
+}
 }
 .site-nav .site-link:active {
-color: #404BBF;
+color: var(--pressed-state-color);
 }
 .address-nav .address-nav-link {
-font-family: 'Roboto', sans-serif;
+font-family: var(--font-family-text);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 2%;
-color: #434455;
+color: var(--text-color);
 }
 .address-nav .address-nav-link:active {
-color: #404BBF;
+color: var(--pressed-state-color);
 }
 .dark-background {
-    background-color: #2E2F42;
+    background-color: var(--navy-blue-color);
 }
 .header-1 {
-font-family: 'Roboto', sans-serif;
+font-family: var(--font-family-text);
 font-size: 56px;
 font-weight: bold;
 line-height: 60px;
 letter-spacing: 2%;
-color: #FFFFFF;
+color: var(--white-background-color);
 }
 .header-1-button {
-    color:#FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--white-background-color);
+    background-color: var(--primary-brand-color);
 }
 .header-1-button:hover {
-    background-color: #404BBF;
+    background-color: var(--pressed-state-color);
 }
 .header-2 {
-    font-family: 'Roboto',sans-serif;
+    font-family: var(--font-family-text);
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 2%;
 }
 .goals .header-3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family-text);
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 2%;
-    color: #2E2F42;
+    color: var(--navy-blue-color);
 }
 .goals .goal {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
 }
 .end-of-page {
-    background-color: #2E2F42;
+    background-color: var(--navy-blue-color);
 }
 .end-of-page .footer-studio {
-    color: #F4F4FD;
+    color: var(--light-color);
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--second-font-family-text);
         font-weight: 800;
         font-size: 18px;
         line-height: 21px;
@@ -92,27 +110,27 @@ color: #FFFFFF;
         text-decoration: none;
 }
 .footer-studio .footer-web {
-    color: #4D5AE5
+    color: var(--primary-brand-color);
 }
 .end-of-page .foot-parag {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-family-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
-    color: #F4F4FD;
+    color: var(--light-color);
 }
 .filters {
-font-family: 'Roboto', sans-serif;
+font-family: var(--font-family-text);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 4%;
 }
 .filters .filter-button {
- color: #4D5AE5; 
- background-color: #F4F4FD;  
+ color: var(--primary-brand-color); 
+ background-color: var(--light-color);  
 }
 .filters .filter-active {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white-background-color);
+    background-color: var(--pressed-state-color);
 }
