@@ -18,18 +18,18 @@ background-color: var(--white-background-color);
 header {
     background-color: #E7E9FC;
 }
-.main-site-link {
+.main-site .main-site-link {
 text-transform: uppercase;
 font-family: var(--second-font-family-text);
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: var(--navy-blue-color);
+color: var(--primary-brand-color);
 text-decoration: none;
 }
-.main-site-link .main-site-link-part {
-    color: var(--navy-blue-color);
+.main-site .main-site-link-part {
+color: var(--navy-blue-color);
 }
 .list {
     list-style: none;
@@ -42,95 +42,156 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--navy-blue-color);
 text-decoration: none;
-.site-link .link {
-    text-decoration: none;
 }
-}
-.site-nav .site-link:active {
+.list .site-link:active {
 color: var(--pressed-state-color);
+}
+.list .site-link:hover {
+color: var(--pressed-state-color);
+}
+.list {
+    list-style: none;
 }
 .address-nav .address-nav-link {
 font-family: var(--font-family-text);
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 color: var(--text-color);
+font-style: normal;
+text-decoration: none;
 }
 .address-nav .address-nav-link:active {
 color: var(--pressed-state-color);
 }
-.dark-background {
-    background-color: var(--navy-blue-color);
+.address-nav .address-nav-link:hover {
+color: var(--pressed-state-color);
 }
-.header-1 {
+.dark-background {
+background-color: var(--navy-blue-color);
+}
+.dark-background .header-1 {
 font-family: var(--font-family-text);
 font-size: 56px;
 font-weight: bold;
-line-height: 60px;
-letter-spacing: 2%;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
 color: var(--white-background-color);
 }
 .header-1-button {
     color: var(--white-background-color);
     background-color: var(--primary-brand-color);
+    font-family: var(--font-family-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
-.header-1-button:hover {
+ .header-1-button:hover {
+   background-color: var(--pressed-state-color);
+}
+.header-1-button:active {
     background-color: var(--pressed-state-color);
 }
-.header-2 {
+.list {
+    list-style: none;
+}
+.team {
+    background-color: var(--light-color);
+}
+.team .header-2 {
     font-family: var(--font-family-text);
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
 }
-.goals .header-3 {
+.list {
+    list-style: none;
+}
+.list .photo-mark {
+    background-color: var(--white-background-color);
+}
+.photo-mark .header-3 {
     font-family: var(--font-family-text);
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--navy-blue-color);
 }
-.goals .goal {
+.photo-mark .body-text {
     font-family: var(--font-family-text);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02;
 }
 .end-of-page {
     background-color: var(--navy-blue-color);
 }
-.end-of-page .footer-studio {
-    color: var(--light-color);
+.end-of-page .footer-web {
+    color: var(--primary-brand-color);
     text-transform: uppercase;
     font-family: var(--second-font-family-text);
         font-weight: 800;
         font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 3%;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
         text-decoration: none;
 }
-.footer-studio .footer-web {
-    color: var(--primary-brand-color);
+.end-of-page .footer-studio {
+    color: var(--light-color);
 }
 .end-of-page .foot-parag {
     font-family: var(--font-family-text);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02;
     color: var(--light-color);
 }
-.filters {
+.list {
+    list-style: none;
+}
+.list .filter-act {
 font-family: var(--font-family-text);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 4%;
+letter-spacing: 0.04;
+color: var(--primary-brand-color);
+background-color: var(--light-color);
+cursor: pointer;
 }
-.filters .filter-button {
- color: var(--primary-brand-color); 
- background-color: var(--light-color);  
+.list .filter-act:hover {
+ color: var(--white-background-color); 
+ background-color: var(--pressed-state-color);  
 }
-.filters .filter-active {
+.filters .filter-act:active {
     color: var(--white-background-color);
     background-color: var(--pressed-state-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.list .header-3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+
+}
+.list .body-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
