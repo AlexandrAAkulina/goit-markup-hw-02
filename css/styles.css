@@ -219,8 +219,8 @@ color: var(--primary-brand-color);
 background-color: var(--light-color);
 cursor: pointer;
 }
-.filters .filter-act:active,
-.filters .filter-act:focus {
+.filters .filter-act:hover,
+.filters .filter-act:active {
     color: var(--white-background-color);
     background-color: var(--pressed-state-color);
 }
