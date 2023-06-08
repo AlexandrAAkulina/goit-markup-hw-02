@@ -33,8 +33,8 @@ color: var(--primary-brand-color);
 .main-site .main-site-link-part {
 color: var(--navy-blue-color);
 }
-.link {
-    text-decoration: none;
+.list {
+    list-style: none;
 }
 
 
@@ -47,16 +47,16 @@ letter-spacing: 0.02em;
 color: var(--navy-blue-color);
 text-decoration: none;
 }
-
+.link {
+    text-decoration: none;
+}
 .list .link:active {
 color: var(--pressed-state-color);
 }
 .list .link:hover {
 color: var(--pressed-state-color);
 }
-.list {
-    list-style: none;
-}
+
 .address-nav {
 font-style: normal;
 }
@@ -67,7 +67,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color);
 
-text-decoration: none;
 }
 .address-nav .link:active {
 color: var(--pressed-state-color);
@@ -97,46 +96,92 @@ color: var(--white-background-color);
     letter-spacing: 0.04em;
     cursor: pointer;
 }
- .main-header-button:hover {
-   background-color: var(--pressed-state-color);
-}
 .main-header-button:active {
     background-color: var(--pressed-state-color);
 }
-.third-main-header {
-    font-family: var(--font-family-text);
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    line-height: 1.11;
-    text-transform: capitalize;
-    color: var(--navy-blue-color);
+ .main-header-button:hover {
+   background-color: var(--pressed-state-color);
 }
 .list {
     list-style: none;
 }
+
+.third-main-header {
+    font-family: var(--font-family-text);
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: var(--navy-blue-color);
+
+}
+.list .body-text {
+font-family: var(--font-family-text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: var(--text-color);
+}
+.second-main-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+
+}
+.list {
+    list-style: none;
+}
+
+
+
+
+
 .team {
     background-color: var(--light-color);}
 
-.photo-mark .third-main-header {
+.team .second-main-header {
+    font-family: var(--font-family-text);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    text-align: center;
+    text-transform: capitalize;
+}
+.list {
+    list-style: none;
+}
+
+
+.list .photo {
+    background-color: var(--white-background-color);
+}
+
+
+.list .third-main-header {
     font-family: var(--font-family-text);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02;
     color: var(--navy-blue-color);
 }
-.photo-mark .body-text {
+
+.photo .body-text {
     font-family: var(--font-family-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02;
+    color: var(--text-color);
 }
 .end-of-page {
     background-color: var(--navy-blue-color);
 }
-.end-of-page .footer-web {
+.end-of-page .link {
     color: var(--primary-brand-color);
     text-transform: uppercase;
     font-family: var(--second-font-family-text);
@@ -145,6 +190,9 @@ color: var(--white-background-color);
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-decoration: none;
+}
+.link {
+    text-decoration: none;
 }
 .end-of-page .footer-studio {
     color: var(--light-color);
@@ -156,9 +204,11 @@ color: var(--white-background-color);
     letter-spacing: 0.02;
     color: var(--light-color);
 }
+
 .list {
     list-style: none;
 }
+
 .list .filter-act {
 font-family: var(--font-family-text);
 font-weight: 500;
@@ -169,30 +219,38 @@ color: var(--primary-brand-color);
 background-color: var(--light-color);
 cursor: pointer;
 }
-.list .filter-act:hover {
- color: var(--white-background-color); 
- background-color: var(--pressed-state-color);  
-}
 .filters .filter-act:active {
     color: var(--white-background-color);
     background-color: var(--pressed-state-color);
 }
+.list .filter-act:hover {
+ color: var(--white-background-color); 
+ background-color: var(--pressed-state-color);  
+}
+
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
 }
-.list .header-3 {
+
+
+
+
+.link .second-main-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
 }
-.list .body-text {
+.link .body-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+.link {
+    text-decoration: none;
 }
