@@ -50,7 +50,7 @@ text-decoration: none;
 .link {
     text-decoration: none;
 }
-.list .link:active {
+.list .link:focus {
 color: var(--pressed-state-color);
 }
 .list .link:hover {
@@ -68,7 +68,7 @@ letter-spacing: 0.02em;
 color: var(--text-color);
 
 }
-.address-nav .link:active {
+.address-nav .link:focus {
 color: var(--pressed-state-color);
 }
 .address-nav .link:hover {
@@ -96,7 +96,7 @@ color: var(--white-background-color);
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.main-header-button:active {
+.main-header-button:focus {
     background-color: var(--pressed-state-color);
 }
  .main-header-button:hover {
@@ -119,14 +119,14 @@ color: var(--white-background-color);
 font-family: var(--font-family-text);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 .second-main-header {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue-color);
 
@@ -167,7 +167,7 @@ font-family: var(--font-family-text);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--navy-blue-color);
 }
 
@@ -201,7 +201,7 @@ font-family: var(--font-family-text);
     font-family: var(--font-family-text);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--light-color);
 }
 
@@ -214,12 +214,12 @@ font-family: var(--font-family-text);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.04;
+letter-spacing: 0.04em;
 color: var(--primary-brand-color);
 background-color: var(--light-color);
 cursor: pointer;
 }
-.filters .filter-act:active {
+.filters .filter-act:focus {
     color: var(--white-background-color);
     background-color: var(--pressed-state-color);
 }
