@@ -11,17 +11,16 @@
 body {
 font-family: var(--font-family-text);
 font-size: 24px;
-font-weight: bold;
+
 color: var(--text-color);
 background-color: var(--white-background-color);
 }
-header {
-    background-color: #E7E9FC;
-}
-.link {
+
+.logo {
     text-decoration: none;
+    
 }
-.main-site .link {
+.main-site .logo {
 text-transform: uppercase;
 font-family: var(--second-font-family-text);
 font-weight: 800;
@@ -64,6 +63,7 @@ font-style: normal;
 font-family: var(--font-family-text);
 font-size: 16px;
 line-height: 1.5;
+font-weight: normal;
 letter-spacing: 0.02em;
 color: var(--text-color);
 
