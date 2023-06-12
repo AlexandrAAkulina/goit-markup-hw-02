@@ -16,11 +16,11 @@ color: var(--text-color);
 background-color: var(--white-background-color);
 }
 
-.logo {
+.link {
     text-decoration: none;
     
 }
-.main-site .logo {
+.main-site .link {
 text-transform: uppercase;
 font-family: var(--second-font-family-text);
 font-weight: 800;
@@ -37,7 +37,7 @@ color: var(--navy-blue-color);
 }
 
 
-.list .link {
+.list .menu-nav {
 font-family: var(--font-family-text);
 font-size: 16px;
 font-weight: 500;
@@ -46,13 +46,13 @@ letter-spacing: 0.02em;
 color: var(--navy-blue-color);
 text-decoration: none;
 }
-.link {
+.menu-nav {
     text-decoration: none;
 }
-.list .link:focus {
+.list .menu-nav:focus {
 color: var(--pressed-state-color);
 }
-.list .link:hover {
+.list .menu-nav:hover {
 color: var(--pressed-state-color);
 }
 
